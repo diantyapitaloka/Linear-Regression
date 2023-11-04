@@ -1,4 +1,4 @@
-# Sklearn-Linearregression
+# Linear Regression
 Predict the price of a house based on the number of rooms.
 
 - import numpy as np
