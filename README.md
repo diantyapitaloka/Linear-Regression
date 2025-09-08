@@ -43,3 +43,6 @@ plt.plot(bedrooms, linreg.predict(bedrooms))
 Linear regression models are one of the simplest machine learning models. This model has low complexity and works very well on datasets that have linear relationships. So, when you encounter a problem that appears to have a linear relationship, linear regression can be the first choice as a model to develop.
 
 ![image](https://github.com/diantyapitaloka/Sklearn-Linearregression/assets/147487436/5822b1a3-2220-4072-89f4-c723caf4b563)
+
+## 🍉🍈🍇 License 🍇🍈🍉
+- Copyright by Diantya Pitaloka
