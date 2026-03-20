@@ -1,5 +1,6 @@
 ## 🍉🍈🍇 Linear Regression 🍇🍈🍉
-Predict the price of a house based on the number of rooms.
+- The model calculates a specific "slope" and an "intercept" to define the best-fit line. The slope represents the average increase in house price for every additional room added to the property
+- Predict the price of a house based on the number of rooms.
 
 ```
 import numpy as np
