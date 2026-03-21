@@ -2,6 +2,7 @@
 - The model calculates a specific "slope" and an "intercept" to define the best-fit line. The slope represents the average increase in house price for every additional room added to the property
 - Predict the price of a house based on the number of rooms.
 - Scikit-Learn requires the independent variable (X) to be a 2-dimensional array. Even with a single feature like "bedrooms," the data must be reshaped so the model recognizes it as a matrix of features rather than a flat list.
+- Assumption of Normality: The model performs best when the "residuals" (the differences between actual and predicted values) follow a normal distribution. If your errors are skewed, it suggests the model might be missing a pattern or that the data needs a transformation.
 - Before choosing this model, it is vital to confirm that a linear relationship actually exists between your variables. If the data follows a curve rather than a straight line, a simple linear model will "underfit" and provide poor predictions.
 - The same principles used here can be expanded to include more variables, such as square footage or the age of the house. This is known as Multiple Linear Regression, which allows for a much more comprehensive and accurate pricing model.
 - Linear regression can be highly sensitive to "outliers," which are data points that fall far from the general trend. A single luxury mansion with a very low room count could significantly tilt your regression line and reduce overall accuracy.
