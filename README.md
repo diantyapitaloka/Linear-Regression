@@ -1,4 +1,5 @@
 ## 🍉🍈🍇 Linear Regression 🍇🍈🍉
+- Handling Outliers: Linear regression is notoriously sensitive to outliers because the Ordinary Least Squares (OLS) method minimizes the sum of the squares of the vertical deviations. A single data point located far from the general trend can "pull" the best-fit line toward itself, significantly altering the slope and intercept. It is often necessary to use scatter plots or Z-scores to identify and address these influential points before training.
 - The model calculates a specific "slope" and an "intercept" to define the best-fit line. The slope represents the average increase in house price for every additional room added to the property
 - Predict the price of a house based on the number of rooms.
 - Scikit-Learn requires the independent variable (X) to be a 2-dimensional array. Even with a single feature like "bedrooms," the data must be reshaped so the model recognizes it as a matrix of features rather than a flat list.
