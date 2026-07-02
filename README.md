@@ -20,7 +20,7 @@
 - The same principles used here can be expanded to include more variables, such as square footage or the age of the house. This is known as Multiple Linear Regression, which allows for a much more comprehensive and accurate pricing model.
 - Linear regression can be highly sensitive to "outliers," which are data points that fall far from the general trend. A single luxury mansion with a very low room count could significantly tilt your regression line and reduce overall accuracy.
 - To know how well your model actually performs, you should check the R-squared score. This value indicates the proportion of the variance for the house price that's explained by the number of bedrooms.
-- Under the hood, this model typically uses Ordinary Least Squares (OLS) to find the best line. It works by minimizing the sum of the squares of the vertical deviations between each actual data point and the predicted line.
+- Under the hood, this model typically uses Ordinary Least Squares (OLS) to find the best line. It works by minimizing the sum of the squares of the vertical deviations between each actual data point and the predicted lines.
 
 ```
 import numpy as np
