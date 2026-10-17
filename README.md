@@ -27,6 +27,8 @@
 - Linear regression can be highly sensitive to "outliers," which are data points that fall far from the general trend. A single luxury mansion with a very low room count could significantly tilt your regression line and reduce overall accuracy.
 - To know how well your model actually performs, you should check the R-squared score. This value indicates the proportion of the variance for the house price that's explained by the number of bedrooms.
 - Under the hood, this model typically uses Ordinary Least Squares (OLS) to find the best line. It works by minimizing the sum of the squares of the vertical deviations between each actual data point and the predicted lines.
+- Coordinate Descent and L-BFGS Solvers: Aside from the closed-form Normal Equation and standard Gradient Descent, regularized models like Lasso and ElasticNet are frequently solved using algorithms such as Coordinate Descent or L-BFGS. These specialized solvers optimize the loss function by updating one parameter at a time, making them exceptionally efficient for high-dimensional, sparse datasets.
+
 
 ```
 import numpy as np
